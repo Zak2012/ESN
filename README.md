@@ -6,10 +6,12 @@ E - Easy
 S - String  
 N - Notation  
 
-You can refer Application.cpp and Example.esn as documentation  
-You can just put ESN.cpp along with your other code or compile and make a library file
+You can refer [Application.cpp]() and [Example.esn]() as documentation  
 
-This project is targeted to those who needs a light weight parser to store/read string
+## Feature
+- Lightweight
+- Easy to use
+- supported from c++11
 
 ## File Format
 - ### Comment
@@ -110,3 +112,6 @@ D  : e
 AA : Name
 BB : Some Name
 ```
+
+## [Lisence](https://github.com/gsproduction727/ESN/blob/main/LICENSE.txt)
+This project is under MIT License
