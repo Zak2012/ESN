@@ -59,7 +59,7 @@ void ESN::SetVariable(ESN::Map &Umap, const ESN::Map &Variables);
 Replace specified string in ESN value with a string specified in Variable map
 
 [Parameter]  
-[in/out] Umap : The ESN map got from Parse()  
+[in/out] Umap : The ESN map got from [```Parse()```](https://github.com/gsproduction727/ESN#parse)  
 [in] Variables : Specify what string to replace with what string  
 
 - ### Parse()
@@ -79,7 +79,7 @@ std::string ESN::ToString(const ESN::Map &Umap)
 ```
 
 [Parameter]  
-[in] Umap : ESN file value from ```Parse()```
+[in] Umap : ESN file value from [```Parse()```](https://github.com/gsproduction727/ESN#parse)
 
 [Return Value]  
 A string of assemblied value  
@@ -95,7 +95,7 @@ std::string ESN::PrettyPrint(const ESN::Map &Umap)
 ```
 
 [Parameter]  
-[in] Umap : ESN file value from ```Parse()```
+[in] Umap : ESN file value from [```Parse()```](https://github.com/gsproduction727/ESN#parse)
 
 [Return Value]  
 A string of assemblied value but prettier  
