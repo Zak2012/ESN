@@ -1,0 +1,8 @@
+# This is comment
+A : a
+A : b # This override the value
+B:c; # Also can we written like this
+C : d; D : e : # ';' Can be used to separate line
+:f # Also can be used so '' = 'f'
+AA : ${Foo} # User can define variable
+BB : ^Bar Name # Variable can only be used in value and not in key
